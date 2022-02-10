@@ -1,0 +1,418 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1140px;
+    margin: auto;
+}
+.header{
+    background-color: #fff;
+    width: 100%;
+
+}
+.header-row{
+    display: flex;
+    justify-content: space-between;
+}
+.logo img{
+    width: 100px;
+}
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 16px;
+    line-height: 68px;
+
+}
+.header-btn{
+    margin-top: 16px;
+}
+.header-btn button{
+font-size: 16px;
+background-color: #2e367d;
+padding: 12px 22px;
+color: #fff;
+border: none;
+border-radius: 5px;
+margin-left: 16px;
+transition: .5s;
+}
+.header-btn button:hover{
+    background-color: tomato;
+    transition: .5s;
+}
+.banner{
+    background-color: #fff;
+    width: 100%;
+
+}
+.banner-row{
+    display: flex;
+   
+}
+.banner-left{
+   margin-top: 98px;
+   margin-left: 20px;
+}
+.banner-left h2{
+    padding-bottom: 20px;
+    font-weight: 900;
+    color: #1e266d;
+    font-size: xx-large
+
+}
+.banner-left p{
+    font-size: 16px;
+    color: #1e266;
+}
+.banner-right img{
+    max-width: 100%;
+    height: auto;
+}
+.banner-left button{
+    border: none;
+    background-color: #2e367d;
+    padding: 16px 18px;
+    margin-top: 16px;
+    border-radius: 5px;
+    color:white;
+}
+
+.banner-btm{
+    width: 100%;
+    background-color: #fff;
+    margin: 50px;
+}
+.banner-btm-row{
+    display: flex;
+}
+.bb1. .bb2, .bb3{
+    flex-basis: 33%;
+   
+}
+.bb1{
+    background-color: #f9799a;
+    margin-right: 50px;
+    padding: 30px 20px;
+    border-radius: 5px;
+}
+.bb2{
+    background-color: #61c4d8;
+    margin-right: 50px;
+    padding: 30px 20px;
+    border-radius: 5px;
+
+}
+.bb3{
+    background-color: #1e266d;
+    margin-right: 50px;
+    padding: 30px 20px;
+    border-radius: 5px;
+}
+.bbt{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    color: #fff;
+
+}
+.bbp{
+    font-weight: 400;
+    line-height: 1.9;
+    color: #fff;
+}
+.project{
+    width: 100%;
+    background-color: white;
+    margin-top: 50PX;
+}
+.project-row{
+    display: flex;
+}
+.project-row h5{
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    color: #171f3c;
+  
+}
+.project-row h2{
+    font-size: 45px;
+    
+    color: #07324f;
+    font-weight: 700;
+}
+.project-row p{
+    color: #526375;
+    font-size: 16px;
+    margin-top: 30px;
+    line-height: 28px;
+}
+.project-row button{
+ font-size: 16px;
+background-color: #2e367d;
+padding: 12px 22px;
+color: #fff;
+border: none;
+border-radius: 5px;
+margin-top: 20px;
+}
+.p1{
+    margin-top: 30px;
+    
+}
+.support{
+    width: 100%;
+    background-color: #f5f7fa;
+}
+.support-row{
+    display: flex;
+    padding-bottom: 20px;
+}
+.s2 h5{
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    color: #171f3c;
+}
+.s2 h2{
+    font-size: 45px;
+    
+    color: #07324f;
+    font-weight: 700;
+}
+.s2 p{
+    color: #526375;
+    font-size: 16px;
+    margin-top: 30px;
+    line-height: 28px;
+}
+.s2 button{
+    font-size: 16px;
+background-color: #2e367d;
+padding: 12px 22px;
+color: #fff;
+border: none;
+border-radius: 5px;
+margin-top: 20px;
+}
+.s2{
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.earn{
+    width: 100%;
+    background-color: #fafafa;
+    padding: 30px 0;
+
+}
+.earn-row{
+    display: flex;
+    padding-top: 30px;
+}
+.e1 h5{
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    color: #171f3c;
+}
+.e1 h2{
+    font-size: 45px;
+    
+    color: #07324f;
+    font-weight: 700;  
+}
+.e1 p{
+    color: #526375;
+    font-size: 16px;
+    margin-top: 30px;
+    line-height: 28px;  
+}
+.e1 button{
+    font-size: 16px;
+    background-color: #2e367d;
+    padding: 12px 22px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.e1{
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.card{
+    width: 100%;
+    background-color: #f5f7fa;
+    padding: 30px 0;
+}
+.card-row{
+    display: flex;
+}
+.c2 h5{
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    color: #171f3c;  
+}
+.c2 h2{
+    font-size: 45px;
+    
+    color: #07324f;
+    font-weight: 700;   
+}
+.c2 p{
+    color: #526375;
+    font-size: 16px;
+    margin-top: 30px;
+    line-height: 28px;   
+}
+.c2 button{
+    font-size: 16px;
+    background-color: #2e367d;
+    padding: 12px 22px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;  
+}
+.c1 img{
+    width:500px;
+}
+.c2{
+    margin-left: 50px;
+    margin-top: 40px; 
+}
+.headline{
+    width: 100%;
+    background-color: #fff;
+    margin: 20px;
+}
+.hbig{
+    font-size: 32px;
+    line-height: 42px;
+    font-weight: 700;
+    color: #07324f;
+    text-align: center;
+}
+.tab{
+    width: 100%;
+}
+.tab1 img{
+    margin-top: 20px;
+}
+
+.tab-btm{
+    width: 100%;
+    background-color: #fff;
+    margin-top: 30px;
+}
+.tab-btm-row{
+    display: flex;
+
+}
+.tb h5{
+font-weight:800;
+margin-bottom: 10px;
+font-size: 20px;
+}
+.tb p{
+    font-style: 400;
+    line-height: 1.9;
+}
+
+.video{
+    width: 100%;
+    background-color: #fff;
+    margin-top: 30px;
+}
+.vdo img{
+    max-width: 100%;
+    height: auto;
+}
+
+.address{
+    width: 100%;
+    background-color: #fff;
+    margin-top: 30px;
+}
+.address-row{
+    display: flex;
+    background-color: #2e367d;
+    padding: 50px 30px;
+    border-radius: 5px;
+}
+.a1{
+    flex-basis: 50%;
+}
+.a2{
+    flex-basis: 50%;
+}
+.a1 h3, .a2 h3{
+    font-size: 18px;
+    font-weight: 900;
+    margin-bottom: 20px;
+    color: white;
+}
+.a1 p, .a2 p{
+    font-size: 16px;
+    line-height: 1.9;
+    color: #fff;
+}
+.footer{
+    width: 100%;
+    background-color: #fff;
+    margin-top: 30px;
+}
+.footer-row{
+    display: flex;
+  
+}
+.f1 h3, .f2 h3, .f3 h3, .f4 h3{
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+   
+
+}
+.f1 p, .f2 p{
+    font-size: 16px;
+    line-height: 1.9;
+    color: #91a3bb;
+}
+.f1{
+    flex-basis: 25%;
+}
+.f2{
+    flex-basis: 25%;
+    
+}
+.f3{
+    flex-basis: 25%;
+}
+.f4{
+    flex-basis: 25%;
+}
+.link li{
+    list-style: none;
+    color: #91a3bb;
+}
+.link li a{
+    line-height: 1.9;
+    font-size: 16px;
+    text-decoration: none;
+    color: #91a3bb;
+}
+.link li a:hover{
+    margin-left: 8px;
+}
